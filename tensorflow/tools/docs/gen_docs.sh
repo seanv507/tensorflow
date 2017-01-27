@@ -1,5 +1,5 @@
-#!/bin/bash
-# Copyright 2015 Google Inc. All Rights Reserved.
+#!/usr/bin/env bash
+# Copyright 2015 The TensorFlow Authors. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
 # limitations under the License.
 # ==============================================================================
 
-# This script needs to be run from the tensorflow/tools directory
+# This script needs to be run from the tensorflow/tools/docs directory
 # Pass -a to also rebuild C++ docs. This requires doxygen.
 
 set -e
